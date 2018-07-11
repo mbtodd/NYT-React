@@ -1,5 +1,4 @@
 import React from "react";
-import Axios from "axios";
 
 // Import sub-components
 import Search from "./children/Search";
@@ -95,10 +94,9 @@ class Main extends React.Component {
 
     return (
       <div className="container">
-        <div className="jumbotron" style={{ 'backgroundImage': 'url(./public/assets/images/newyorkdusk.jpg)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed' }}>
-
-            <h1>New York Times Article Scrubber</h1>
-            <p>Search for and annotate articles of interest!</p>
+        <div className="jumbotron">
+          <h1>New York Times Article Scrubber</h1>
+          <p>Search for and annotate articles of interest!</p>
         </div>
         <div className="row">
           <Search setTerm={this.setTerm} setArticleToSave={this.setArticleToSave} saved={this.state.saved} results={this.state.results} resultToSave={this.state.resultToSave} />
@@ -111,5 +109,5 @@ class Main extends React.Component {
   }
 }
 
-// Export the component back for use in other files
+// Export the componen back for use in other files
 export default Main;
