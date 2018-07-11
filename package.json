@@ -1,27 +1,12 @@
 {
   "name": "nyt-react-search",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.3",
-    "morgan": "^1.9.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
-  },
+  "version": "1.0.0",
+  "description": "Mongo express react node app that lets users search for nytimes articles and save them",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
-  "description": "node.js app using Mongo express and react to search for nytimes articles",
-  "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mbtodd/NYT-React.git"
@@ -31,5 +16,23 @@
   "bugs": {
     "url": "https://github.com/mbtodd/NYT-React/issues"
   },
-  "homepage": "https://github.com/mbtodd/NYT-React#readme"
+  "homepage": "https://github.com/mbtodd/NYT-React#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^4.13.14",
+    "morgan": "^1.9.0",
+    "react": "^0.14.9",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.13.1"
+  }
 }
