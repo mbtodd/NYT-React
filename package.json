@@ -3,8 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -12,5 +18,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "node.js app using Mongo express and react to search for nytimes articles",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbtodd/NYT-React.git"
+  },
+  "author": "Michael Todd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbtodd/NYT-React/issues"
+  },
+  "homepage": "https://github.com/mbtodd/NYT-React#readme"
 }
