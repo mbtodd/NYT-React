@@ -95,7 +95,7 @@ class Main extends React.Component {
     return (
       <div className="container">
         <div className="jumbotron">
-          <h1>New York Times Article Scrubber</h1>
+          <h3>New York Times Article Scrubber</h3>
           <p>Search for and annotate articles of interest!</p>
         </div>
         <div className="row">
